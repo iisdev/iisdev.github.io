@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	width: 90%;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+main {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.nav ul {
+	justify-content: center;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin: 0 auto;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin: 30px;
+}
+.nav ul li:first-child{
+	/*padding-left: 50%;*/
+}
+
+.nav ul li a {
+	
+	font-size: 20px;
+}
+.nav ul li a:hover {
+	background-color: white;
+	color: black;
+	transition: 0.3s;
+}
+
+.content {
+	width: 50%;
+	margin: 0 auto;
+}
+.content ul {
+	list-style-type: none;
+	line-height: 2em;
+}
+
+.content ul li {
+	padding-left: 8%;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content ul li:first-child {
+	text-align: center;
+	padding: 0;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+img {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 5%;
+}
